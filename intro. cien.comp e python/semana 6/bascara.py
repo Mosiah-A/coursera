@@ -4,10 +4,10 @@ def delta(a,b,c):
     return b ** 2 - 4 * a * c
 
 def main():
-    a = float(input("Digite o valor de a: "))
-    b = float(input("Digite o valor de b: "))
-    c = float(input("Digite o valor de c: "))
-    imprime_raiz(a,b,c)
+    a_Digitado = float(input("Digite o valor de a: "))
+    b_Digitado = float(input("Digite o valor de b: "))
+    c_Digitado = float(input("Digite o valor de c: "))
+    imprime_raiz(a_Digitado,b_Digitado,c_Digitado)
 
 def imprime_raiz(a,b,c):
     d = delta(a,b,c)
